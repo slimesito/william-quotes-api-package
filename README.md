@@ -95,14 +95,13 @@ php artisan vendor:publish --tag=quotesapi-assets
 Run the package tests with:
 
 ```bash
-php artisan test --testsuite=package-quotesapi
+npm test --prefix frontend
 ```
-
-## Contributing
-
-Feel free to submit issues or pull requests to improve the package!
 
 ## License
 
-This package is open-source and available under the MIT license.
+This package was created by William Villegas and is open-source and available under the MIT license.
 
+## Contact
+
+William Villegas - [LinkedIn](https://www.linkedin.com/in/william-villegas-ab3b94215/) - williamonfroy@gmail.com
