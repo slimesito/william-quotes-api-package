@@ -1,0 +1,25 @@
+{
+    "name": "william/quotesapi",
+    "description": "A Laravel package for interacting with the Quotes API created by me (William Villegas)",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "William\\QuotesApi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "William\\QuotesApi\\QuotesApiServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^10.0",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
