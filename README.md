@@ -11,7 +11,7 @@ To install this package within your Laravel 10 project, follow these steps:
    composer require william/quotesapi
 ```
 
-After installation, publish the package assets (Vue.js UI, config files, etc.):
+2. After installation, publish the package assets (Vue.js UI, config files, etc.):
     ```bash
     php artisan vendor:publish --tag=quotesapi-config
 ```
